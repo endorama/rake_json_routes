@@ -1,8 +1,9 @@
 # RakeJsonRoutes
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rake_json_routes`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem adds a rake task to a Rails application to produce JSON formatted output
+from the `rake routes` data.
 
-TODO: Delete this and the text above, and describe your gem
+**NB**: this gem **requires** `rails`
 
 ## Installation
 
@@ -22,7 +23,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+A task called `json_routes` should be available, somply run it via
+
+`$ rake json_routes`
 
 ## Development
 
@@ -32,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rake_json_routes. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/endorama/rake_json_routes. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
