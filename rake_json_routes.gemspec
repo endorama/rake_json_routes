@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Edoardo Tenani"]
   spec.email         = ["edoardo.tenani@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Rake routes with JSON output}
+  spec.description   = %q{Add a new rake tasks called json_routes that produce JSON formatted output with the same data of rake routes}
+  spec.homepage      = "http://about.me/edoardo.tenani"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -30,4 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  
+  # spec.add_dependency "rails", "~> 3.0"
 end

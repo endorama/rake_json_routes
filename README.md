@@ -3,7 +3,8 @@
 This gem adds a rake task to a Rails application to produce JSON formatted output
 from the `rake routes` data.
 
-**NB**: this gem **requires** `rails`
+**NB**: this gem **requires** `rails` (not as a hard dependency, but will not
+work outside it)
 
 ## Installation
 
